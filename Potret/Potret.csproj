@@ -149,17 +149,12 @@
     <Compile Include="ViewModels\ShoppingCartViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Images\728x90-xtudent.jpg" />
-    <Content Include="Content\Images\Carry.On.000.gif" />
-    <Content Include="Content\Images\eseed-v3-468x60.jpg" />
-    <Content Include="Content\Images\For.Those.About.To.Rock.We.Salute.You.gif" />
-    <Content Include="Content\Images\Greatest.Hits.000.gif" />
+    <Content Include="Content\Images\banner_54a9fbb74ada5.gif" />
+    <Content Include="Content\Images\campaign_51235.jpg" />
     <Content Include="Content\Images\home-showcase.png" />
-    <Content Include="Content\Images\Let.There.Be.Rock.gif" />
     <Content Include="Content\Images\logo.png" />
-    <Content Include="Content\Images\Nevermind.gif" />
     <Content Include="Content\Images\placeholder.gif" />
-    <Content Include="Content\Images\The.Best.Of.Men.At.Work.gif" />
+    <Content Include="Content\Images\setem1957.gif" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
