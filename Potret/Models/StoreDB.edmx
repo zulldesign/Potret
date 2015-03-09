@@ -180,7 +180,7 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="Potret.Models" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityContainer Name="MusicStoreEntities" p1:LazyLoadingEnabled="true">
+        <EntityContainer Name="PotretEntities" p1:LazyLoadingEnabled="true">
           <EntitySet Name="Albums" EntityType="Potret.Models.Album" />
           <EntitySet Name="Artists" EntityType="Potret.Models.Artist" />
           <EntitySet Name="Carts" EntityType="Potret.Models.Cart" />
@@ -365,7 +365,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="PotretModelsStoreContainer" CdmEntityContainer="MusicStoreEntities">
+        <EntityContainerMapping StorageEntityContainer="PotretModelsStoreContainer" CdmEntityContainer="PotretEntities">
           <EntitySetMapping Name="Albums">
             <EntityTypeMapping TypeName="Potret.Models.Album">
               <MappingFragment StoreEntitySet="Albums">

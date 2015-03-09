@@ -7,7 +7,7 @@ namespace Potret.Controllers
 {
     public class ShoppingCartController : Controller
     {
-        MusicStoreEntities storeDB = new MusicStoreEntities();
+        PotretEntities storeDB = new PotretEntities();
 
         //
         // GET: /ShoppingCart/

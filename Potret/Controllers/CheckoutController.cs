@@ -8,7 +8,7 @@ namespace Potret.Controllers
     [Authorize]
     public class CheckoutController : Controller
     {
-        MusicStoreEntities storeDB = new MusicStoreEntities();
+        PotretEntities storeDB = new PotretEntities();
         const string PromoCode = "FREE";
 
         //

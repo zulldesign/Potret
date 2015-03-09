@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="Potret.Models" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityContainer Name="MusicStoreEntities" p1:LazyLoadingEnabled="true">
+  <EntityContainer Name="PotretEntities" p1:LazyLoadingEnabled="true">
     <EntitySet Name="Albums" EntityType="Potret.Models.Album" />
     <EntitySet Name="Artists" EntityType="Potret.Models.Artist" />
     <EntitySet Name="Carts" EntityType="Potret.Models.Cart" />

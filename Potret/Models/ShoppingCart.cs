@@ -8,7 +8,7 @@ namespace Potret.Models
 {
     public partial class ShoppingCart
     {
-        MusicStoreEntities storeDB = new MusicStoreEntities();
+        PotretEntities storeDB = new PotretEntities();
 
         string ShoppingCartId { get; set; }
 

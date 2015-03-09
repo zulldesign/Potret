@@ -12,7 +12,7 @@ namespace Potret.Controllers
     [Authorize(Roles = "Administrator")]
     public class StoreManagerController : Controller
     {
-        private MusicStoreEntities db = new MusicStoreEntities();
+        private PotretEntities db = new PotretEntities();
 
         //
         // GET: /StoreManager/

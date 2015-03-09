@@ -9,7 +9,7 @@ namespace Potret.Controllers
 {
     public class StoreController : Controller
     {
-        MusicStoreEntities storeDB = new MusicStoreEntities();
+        PotretEntities storeDB = new PotretEntities();
 
         //
         // GET: /Store/

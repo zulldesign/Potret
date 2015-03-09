@@ -10,7 +10,7 @@ namespace Potret.Controllers
         //
         // GET: /Home/
 
-        MusicStoreEntities storeDB = new MusicStoreEntities();
+        PotretEntities storeDB = new PotretEntities();
 
         public ActionResult Index()
         {

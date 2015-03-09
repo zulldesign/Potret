@@ -13,10 +13,10 @@ namespace Potret.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class MusicStoreEntities : DbContext
+    public partial class PotretEntities : DbContext
     {
-        public MusicStoreEntities()
-            : base("name=MusicStoreEntities")
+        public PotretEntities()
+            : base("name=PotretEntities")
         {
         }
     
